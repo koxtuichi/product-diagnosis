@@ -254,10 +254,23 @@ h4 {
   text-align: left;
 }
 
-.choice-button:hover,
+.choice-button:hover {
+  border-color: var(--line);
+  background: var(--surface);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .choice-button:hover {
+    border-color: var(--mint);
+    background: var(--surface);
+  }
+}
+
 .choice-button:focus-visible {
   border-color: var(--mint);
-  background: var(--surface-soft);
+  background: var(--surface);
+  outline: 3px solid rgba(110, 155, 130, 0.24);
+  outline-offset: 2px;
 }
 
 .choice-button:focus:not(:focus-visible) {

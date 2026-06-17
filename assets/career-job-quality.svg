@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">求人条件を確認するイラスト</title>
+  <desc id="desc">求人カードとチェック項目を並べた転職準備の中立イメージ</desc>
+  <rect width="640" height="420" fill="#f4f7f2"/>
+  <rect x="78" y="68" width="484" height="284" rx="24" fill="#ffffff" stroke="#d8ded7" stroke-width="4"/>
+  <rect x="120" y="116" width="170" height="214" rx="16" fill="#edf5ef"/>
+  <rect x="148" y="146" width="108" height="20" rx="10" fill="#3b7a6d"/>
+  <rect x="148" y="194" width="94" height="14" rx="7" fill="#aebcb1"/>
+  <rect x="148" y="226" width="112" height="14" rx="7" fill="#aebcb1"/>
+  <rect x="148" y="258" width="76" height="14" rx="7" fill="#aebcb1"/>
+  <circle cx="358" cy="154" r="22" fill="#d9e8df"/>
+  <path d="M348 154l8 8 18-22" fill="none" stroke="#3b7a6d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="404" y="144" width="116" height="18" rx="9" fill="#d8ded7"/>
+  <circle cx="358" cy="220" r="22" fill="#d9e8df"/>
+  <path d="M348 220l8 8 18-22" fill="none" stroke="#3b7a6d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="404" y="210" width="134" height="18" rx="9" fill="#d8ded7"/>
+  <circle cx="358" cy="286" r="22" fill="#d9e8df"/>
+  <path d="M348 286l8 8 18-22" fill="none" stroke="#3b7a6d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="404" y="276" width="98" height="18" rx="9" fill="#d8ded7"/>
+</svg>

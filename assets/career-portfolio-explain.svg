@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">ポートフォリオを説明する準備のイラスト</title>
+  <desc id="desc">コード画面と説明メモを並べた転職準備の中立イメージ</desc>
+  <rect width="640" height="420" fill="#f6f8f5"/>
+  <rect x="74" y="70" width="492" height="286" rx="24" fill="#ffffff" stroke="#d8ded7" stroke-width="4"/>
+  <rect x="112" y="112" width="224" height="168" rx="12" fill="#24342f"/>
+  <circle cx="134" cy="134" r="7" fill="#b95658"/>
+  <circle cx="158" cy="134" r="7" fill="#a77a3d"/>
+  <circle cx="182" cy="134" r="7" fill="#6e9b82"/>
+  <path d="M138 176l34-26M138 176l34 26M250 150l34 26-34 26" fill="none" stroke="#edf5ef" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M202 218l24-88" stroke="#6e9b82" stroke-width="10" stroke-linecap="round"/>
+  <rect x="374" y="112" width="126" height="28" rx="14" fill="#edf5ef"/>
+  <rect x="374" y="166" width="144" height="18" rx="9" fill="#d8ded7"/>
+  <rect x="374" y="202" width="116" height="18" rx="9" fill="#d8ded7"/>
+  <rect x="374" y="238" width="150" height="18" rx="9" fill="#d8ded7"/>
+  <path d="M404 298h82" stroke="#3b7a6d" stroke-width="12" stroke-linecap="round"/>
+</svg>

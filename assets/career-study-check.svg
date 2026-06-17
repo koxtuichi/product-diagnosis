@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">学習ロードマップを確認するイラスト</title>
+  <desc id="desc">ノートと学習ステップを並べた転職準備の中立イメージ</desc>
+  <rect width="640" height="420" fill="#f6f8f5"/>
+  <rect x="82" y="72" width="476" height="276" rx="24" fill="#ffffff" stroke="#d8ded7" stroke-width="4"/>
+  <rect x="136" y="116" width="174" height="208" rx="16" fill="#edf5ef"/>
+  <path d="M166 164h112M166 206h92M166 248h120" stroke="#6e9b82" stroke-width="12" stroke-linecap="round"/>
+  <path d="M378 298c-44-44-44-116 0-160" fill="none" stroke="#d8ded7" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="390" cy="138" r="24" fill="#3b7a6d"/>
+  <circle cx="440" cy="218" r="24" fill="#a77a3d"/>
+  <circle cx="390" cy="298" r="24" fill="#3b7a6d"/>
+  <path d="M390 138h68M440 218h-64M390 298h68" stroke="#24564d" stroke-width="8" stroke-linecap="round" opacity=".22"/>
+</svg>

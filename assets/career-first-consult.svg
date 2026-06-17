@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 420" role="img" aria-labelledby="title desc">
+  <title id="title">相談前に現在地を整理する人のイラスト</title>
+  <desc id="desc">机の上のメモと吹き出しを使った転職相談の中立イメージ</desc>
+  <rect width="640" height="420" fill="#f4f7f2"/>
+  <rect x="70" y="72" width="500" height="276" rx="24" fill="#ffffff" stroke="#d8ded7" stroke-width="4"/>
+  <circle cx="196" cy="166" r="56" fill="#d9e8df"/>
+  <path d="M166 170c20 24 42 24 62 0v58h-62z" fill="#3b7a6d"/>
+  <circle cx="196" cy="144" r="30" fill="#f0c9aa"/>
+  <path d="M150 136c20-42 82-34 92 6-28-12-52-12-92-6z" fill="#24564d"/>
+  <rect x="286" y="124" width="194" height="28" rx="14" fill="#edf5ef"/>
+  <rect x="286" y="174" width="250" height="18" rx="9" fill="#d8ded7"/>
+  <rect x="286" y="208" width="220" height="18" rx="9" fill="#d8ded7"/>
+  <rect x="286" y="242" width="150" height="18" rx="9" fill="#d8ded7"/>
+  <path d="M430 88h78c30 0 54 24 54 54s-24 54-54 54h-32l-42 38 10-38h-14c-30 0-54-24-54-54s24-54 54-54z" fill="#a77a3d" opacity=".18"/>
+  <path d="M454 132h74M454 160h46" stroke="#a77a3d" stroke-width="12" stroke-linecap="round"/>
+</svg>

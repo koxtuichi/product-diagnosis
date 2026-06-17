@@ -223,7 +223,8 @@
       image.className = "offer-card__image";
       image.src = offer.image;
       image.alt = offer.imageAlt || `${offer.name}の画像`;
-      image.loading = "lazy";
+      image.loading = "eager";
+      image.decoding = "async";
       card.append(image, body);
     } else {
       card.classList.add("offer-card--no-image");
