@@ -260,6 +260,12 @@ h4 {
   background: var(--surface-soft);
 }
 
+.choice-button:focus:not(:focus-visible) {
+  border-color: var(--line);
+  background: var(--surface);
+  outline: none;
+}
+
 .result {
   padding: clamp(22px, 5vw, 38px);
 }

@@ -120,11 +120,15 @@
       button.type = "button";
       button.className = "choice-button";
       button.textContent = choice.label;
-      button.addEventListener("click", () => choose(choice));
+      button.addEventListener("click", () => {
+        button.blur();
+        choose(choice);
+      });
       choices.appendChild(button);
     });
 
     backButton.disabled = state.step === 0;
+    questionTitle.scrollIntoView({ behavior: "smooth", block: "start" });
   }
 
   function choose(choice) {
