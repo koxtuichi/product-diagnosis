@@ -34,6 +34,8 @@
   const choices = document.querySelector("[data-choices]");
   const resultTitle = document.querySelector("[data-result-title]");
   const resultSummary = document.querySelector("[data-result-summary]");
+  const pointsTitle = document.querySelector("[data-points-title]");
+  const checklistTitle = document.querySelector("[data-checklist-title]");
   const resultPoints = document.querySelector("[data-result-points]");
   const resultChecklist = document.querySelector("[data-result-checklist]");
   const offerIntro = document.querySelector("[data-offer-intro]");
@@ -71,7 +73,9 @@
     introCopy.textContent = diagnosis.introCopy || "";
     notice.textContent = diagnosis.notice || "";
     resultLabel.textContent = diagnosis.resultLabel || "チェック結果";
-    offersLabel.textContent = diagnosis.offersLabel || "今回のおすすめ";
+    pointsTitle.textContent = diagnosis.pointsTitle || "先に見るポイント";
+    checklistTitle.textContent = diagnosis.checklistTitle || "買う前のメモ";
+    offersLabel.textContent = diagnosis.offersLabel || "確認先候補";
     offersTitle.textContent = diagnosis.offersTitle || "あなたに一番近い確認先";
     offerNote.textContent = diagnosis.offerNote || "";
 
