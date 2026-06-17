@@ -3,12 +3,12 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>赤ちゃん保湿ケア選びチェック</title>
+    <title>商品選びチェック</title>
     <meta
       name="description"
       content="赤ちゃん用ボディローション選びで、今先に確認したい条件を整理する簡易チェックです。"
     />
-    <meta property="og:title" content="赤ちゃん保湿ケア選びチェック" />
+    <meta property="og:title" content="商品選びチェック" />
     <meta
       property="og:description"
       content="保湿ケア選びの不安を、使う場面・続けやすさ・相談ラインから整理します。"
@@ -20,33 +20,30 @@
     <main class="app" id="app">
       <section class="intro" aria-labelledby="app-title">
         <div class="intro__copy">
-          <p class="label">アフィリエイトリンクを含みます</p>
-          <h1 id="app-title">赤ちゃんの保湿、まず何を見ればいい？</h1>
-          <p>
-            いま気になっている条件を5つ選ぶだけで、先に確認したいポイントと商品ページを見る前のメモを整理します。
-          </p>
+          <p class="label" data-disclosure-label>アフィリエイトリンクを含みます</p>
+          <h1 id="app-title" data-app-title>商品選びチェック</h1>
+          <p data-intro-copy></p>
           <div class="intro__actions">
             <button class="primary-button" type="button" data-start>
               診断を開始する
             </button>
-            <a class="text-link" href="https://note.com/happy_hebe8148/n/nbf13f1006763">
-              元の記事を読む
+            <a class="text-link" href="#" data-article-link>
+              関連記事を読む
             </a>
           </div>
         </div>
-        <figure class="product-figure">
+        <figure class="product-figure" data-hero-figure>
           <img
             src="./assets/alobaby-milk-lotion-rakuten-240.jpg"
             alt="アロベビー ミルクローションの商品画像"
+            data-hero-image
           />
-          <figcaption>商品画像は既存note記事で使用中の楽天商品画像です。</figcaption>
+          <figcaption data-hero-caption></figcaption>
         </figure>
       </section>
 
       <section class="notice" aria-label="このチェックの前提">
-        <p>
-          このページは医療判断や肌状態の診断ではありません。赤み、かゆみ、湿疹など気になる状態がある場合は、商品選びより先に小児科などへ相談してください。
-        </p>
+        <p data-notice></p>
       </section>
 
       <section class="quiz" aria-live="polite" hidden>
@@ -69,7 +66,7 @@
 
       <section class="result" hidden>
         <div class="result__header">
-          <p class="label">チェック結果</p>
+          <p class="label" data-result-label>チェック結果</p>
           <h2 data-result-title></h2>
           <p data-result-summary></p>
         </div>
@@ -85,20 +82,18 @@
         </div>
         <section class="offers" aria-labelledby="offers-title">
           <div class="offers__header">
-            <p class="label">今回のおすすめ</p>
-            <h3 id="offers-title">あなたに一番近い確認先</h3>
+            <p class="label" data-offers-label>今回のおすすめ</p>
+            <h3 id="offers-title" data-offers-title>あなたに一番近い確認先</h3>
             <p data-offer-intro></p>
           </div>
           <div class="offer-list" data-offer-list></div>
-          <p class="offer-note">
-            価格、在庫、商品仕様は変わる場合があります。購入前に楽天の商品ページで最新情報を確認してください。
-          </p>
+          <p class="offer-note" data-offer-note></p>
         </section>
         <div class="nav-actions">
           <button class="secondary-button" type="button" data-reset-result>
             もう一度診断する
           </button>
-          <a class="text-link" href="https://note.com/happy_hebe8148/n/nbf13f1006763">
+          <a class="text-link" href="#" data-result-article-link>
             判断の記録を読む
           </a>
         </div>
@@ -106,6 +101,7 @@
     </main>
 
     <script src="./data/diagnoses.js"></script>
+    <script src="./data/career-change-a8-001.generated.js"></script>
     <script src="./app.js"></script>
   </body>
 </html>

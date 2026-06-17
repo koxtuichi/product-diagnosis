@@ -12,6 +12,18 @@
   --shadow: 0 14px 38px rgba(83, 55, 40, 0.12);
 }
 
+body[data-theme="career"] {
+  --bg: #f7f8f5;
+  --surface-soft: #edf5ef;
+  --ink: #242824;
+  --muted: #5e665f;
+  --line: #d8ded7;
+  --accent: #3b7a6d;
+  --accent-dark: #24564d;
+  --mint: #a77a3d;
+  --shadow: 0 14px 38px rgba(39, 61, 55, 0.11);
+}
+
 * {
   box-sizing: border-box;
 }
@@ -43,6 +55,11 @@ body {
   gap: 28px;
   align-items: center;
   min-height: 70vh;
+}
+
+.intro--no-figure {
+  grid-template-columns: minmax(0, 820px);
+  justify-content: center;
 }
 
 .intro__copy,
@@ -289,6 +306,10 @@ li + li {
   padding: 16px;
   box-shadow: none;
   background: #fffdfb;
+}
+
+.offer-card--no-image {
+  grid-template-columns: 1fr;
 }
 
 .offer-card__image {

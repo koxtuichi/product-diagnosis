@@ -11,6 +11,19 @@
   const intro = document.querySelector(".intro");
   const quiz = document.querySelector(".quiz");
   const result = document.querySelector(".result");
+  const appTitle = document.querySelector("[data-app-title]");
+  const disclosureLabel = document.querySelector("[data-disclosure-label]");
+  const introCopy = document.querySelector("[data-intro-copy]");
+  const articleLink = document.querySelector("[data-article-link]");
+  const resultArticleLink = document.querySelector("[data-result-article-link]");
+  const heroFigure = document.querySelector("[data-hero-figure]");
+  const heroImage = document.querySelector("[data-hero-image]");
+  const heroCaption = document.querySelector("[data-hero-caption]");
+  const notice = document.querySelector("[data-notice]");
+  const resultLabel = document.querySelector("[data-result-label]");
+  const offersLabel = document.querySelector("[data-offers-label]");
+  const offersTitle = document.querySelector("[data-offers-title]");
+  const offerNote = document.querySelector("[data-offer-note]");
   const startButton = document.querySelector("[data-start]");
   const backButton = document.querySelector("[data-back]");
   const resetButtons = document.querySelectorAll("[data-reset], [data-reset-result]");
@@ -25,6 +38,57 @@
   const resultChecklist = document.querySelector("[data-result-checklist]");
   const offerIntro = document.querySelector("[data-offer-intro]");
   const offerList = document.querySelector("[data-offer-list]");
+
+  function setMeta(selector, attribute, value) {
+    const element = document.querySelector(selector);
+    if (!element || !value) return;
+    element.setAttribute(attribute, value);
+  }
+
+  function configureOptionalLink(link, href, label) {
+    if (!link) return;
+    if (!href) {
+      link.hidden = true;
+      link.removeAttribute("href");
+      return;
+    }
+
+    link.hidden = false;
+    link.href = href;
+    if (label) link.textContent = label;
+  }
+
+  function applyDiagnosisContent() {
+    document.body.dataset.theme = diagnosis.theme || "default";
+    document.title = diagnosis.metaTitle || diagnosis.appTitle || document.title;
+    setMeta('meta[name="description"]', "content", diagnosis.metaDescription);
+    setMeta('meta[property="og:title"]', "content", diagnosis.ogTitle || diagnosis.appTitle);
+    setMeta('meta[property="og:description"]', "content", diagnosis.ogDescription || diagnosis.metaDescription);
+    setMeta('meta[property="og:image"]', "content", diagnosis.ogImage);
+
+    appTitle.textContent = diagnosis.appTitle || "商品選びチェック";
+    disclosureLabel.textContent = diagnosis.disclosureLabel || "アフィリエイトリンクを含みます";
+    introCopy.textContent = diagnosis.introCopy || "";
+    notice.textContent = diagnosis.notice || "";
+    resultLabel.textContent = diagnosis.resultLabel || "チェック結果";
+    offersLabel.textContent = diagnosis.offersLabel || "今回のおすすめ";
+    offersTitle.textContent = diagnosis.offersTitle || "あなたに一番近い確認先";
+    offerNote.textContent = diagnosis.offerNote || "";
+
+    configureOptionalLink(articleLink, diagnosis.articleUrl, diagnosis.articleLinkLabel || "関連記事を読む");
+    configureOptionalLink(resultArticleLink, diagnosis.articleUrl, diagnosis.resultArticleLinkLabel || diagnosis.articleLinkLabel || "関連記事を読む");
+
+    if (diagnosis.heroImage) {
+      heroFigure.hidden = false;
+      heroImage.src = diagnosis.heroImage;
+      heroImage.alt = diagnosis.heroImageAlt || "";
+      heroCaption.textContent = diagnosis.heroCaption || "";
+      intro.classList.remove("intro--no-figure");
+    } else {
+      heroFigure.hidden = true;
+      intro.classList.add("intro--no-figure");
+    }
+  }
 
   function start() {
     intro.hidden = true;
@@ -116,12 +180,6 @@
     const card = document.createElement("article");
     card.className = "offer-card";
 
-    const image = document.createElement("img");
-    image.className = "offer-card__image";
-    image.src = offer.image;
-    image.alt = `${offer.name}の商品画像`;
-    image.loading = "lazy";
-
     const body = document.createElement("div");
     body.className = "offer-card__body";
 
@@ -134,7 +192,7 @@
 
     const price = document.createElement("p");
     price.className = "offer-card__price";
-    price.textContent = offer.price;
+    price.textContent = offer.price || offer.condition || "";
 
     const note = document.createElement("p");
     note.className = "offer-card__note";
@@ -145,10 +203,24 @@
     link.href = offer.url;
     link.target = "_blank";
     link.rel = "nofollow sponsored noopener";
-    link.textContent = "楽天で詳細を見る";
+    link.textContent = offer.ctaLabel || diagnosis.ctaLabel || "詳細を見る";
 
-    body.append(badge, name, price, note, link);
-    card.append(image, body);
+    body.append(badge, name);
+    if (price.textContent) body.appendChild(price);
+    body.append(note);
+    if (offer.url) body.appendChild(link);
+
+    if (offer.image) {
+      const image = document.createElement("img");
+      image.className = "offer-card__image";
+      image.src = offer.image;
+      image.alt = offer.imageAlt || `${offer.name}の画像`;
+      image.loading = "lazy";
+      card.append(image, body);
+    } else {
+      card.classList.add("offer-card--no-image");
+      card.appendChild(body);
+    }
 
     return card;
   }
@@ -174,4 +246,5 @@
   startButton.addEventListener("click", start);
   backButton.addEventListener("click", goBack);
   resetButtons.forEach((button) => button.addEventListener("click", reset));
+  applyDiagnosisContent();
 })();

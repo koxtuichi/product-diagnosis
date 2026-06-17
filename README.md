@@ -1,12 +1,13 @@
-# 赤ちゃん保湿ケア選びチェック MVP
+# 診断アプリ MVP
 
-既存の楽天アフィリエイトnote記事 `alobaby-lotion-parent-choice-001` から遷移させる想定の、静的な診断アプリMVPです。
+note記事から遷移させる想定の、静的な診断アプリMVPです。
 
 ## 使い方
 
 - ローカル確認: `affiliate-diagnosis-app/index.html` をブラウザで開く
 - GitHub Pages: このディレクトリ内のファイルを公開リポジトリ直下へ配置し、Pagesの公開元を設定する
 - 診断URL: `index.html?id=baby-lotion`
+- 転職診断URL: `index.html?id=career-change-a8-001`
 
 ## 方針
 
@@ -21,6 +22,12 @@
 `data/diagnoses.js` に診断ID、質問、スコア、結果、商品候補を追加すると、同じUIで別記事向け診断を増やせます。
 
 商品候補は `offers` 配列へ追加し、結果画面には各結果の `recommendedOffer` で指定した1商品だけを表示します。
+
+## 転職診断の注意
+
+`career-change-a8-001` はA8.net候補の存在確認をもとにした確認用ページです。
+
+A8.net候補は現時点では提携申請前です。公開導線へ使う前に、提携承認後のアフィリエイトリンクへ差し替えてください。
 
 ## note記事に置く導線案
 
