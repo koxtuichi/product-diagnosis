@@ -96,8 +96,8 @@ window.DIAGNOSES = {
       standard: {
         title: "まず候補を1本に絞って確認するタイプ",
         summary: "使っている人の多さや記事の体験談を入口にしつつ、合う保証ではなく、試す前の確認点を持って進めるのが合いそうです。",
-        offerIntro: "まず記事内候補を見て、気になる場合だけ比較候補へ広げる順番です。",
-        offerOrder: ["alobaby-milk-lotion", "mama-kids-milky-lotion", "milufuwa-pump-set", "pigeon-refill-set"],
+        recommendedOffer: "alobaby-milk-lotion",
+        offerIntro: "今回は、記事内で紹介している候補を1つ目の確認先にします。定番候補を見て、対象月齢、使い方、容量を落ち着いて確認する進め方です。",
         points: [
           "商品ページでは対象月齢、使い方、容量を先に確認する",
           "レビューは結論だけでなく、どんな場面で使っているかを見る",
@@ -112,8 +112,8 @@ window.DIAGNOSES = {
       consult: {
         title: "相談ラインを先に作るタイプ",
         summary: "商品を決める前に、気になる状態が出た時の相談先と止める基準を決めておくほうが安心しやすい状態です。",
-        offerIntro: "気になる赤み、かゆみ、湿疹などがある場合は購入判断より相談を優先してください。候補は落ち着いて比較するためのメモとして見ます。",
-        offerOrder: ["alobaby-milk-lotion", "mama-kids-milky-lotion", "pigeon-refill-set", "milufuwa-pump-set"],
+        recommendedOffer: "alobaby-milk-lotion",
+        offerIntro: "今回は、購入を急がず記事内候補を確認する形にします。赤み、かゆみ、湿疹などが気になる場合は、商品選びより先に小児科などへ相談してください。",
         points: [
           "肌の変化がある時は購入比較より小児科などへの相談を優先する",
           "保湿剤が原因かどうかを親だけで決めつけない",
@@ -128,8 +128,8 @@ window.DIAGNOSES = {
       routine: {
         title: "毎日続けやすいかを先に見るタイプ",
         summary: "保湿剤の良し悪しだけでなく、お風呂上がりに迷わず使えるか、片手で扱えるかが重要になりそうです。",
-        offerIntro: "ポンプ式、容量、買い足しやすさから見て、毎日の手間が少なそうな候補を先に並べます。",
-        offerOrder: ["milufuwa-pump-set", "pigeon-refill-set", "alobaby-milk-lotion", "mama-kids-milky-lotion"],
+        recommendedOffer: "milufuwa-pump-set",
+        offerIntro: "今回は、毎日使う前提でポンプ式と買い足しやすさを先に見ます。お風呂上がりの手間を減らしたい人向けの確認先です。",
         points: [
           "ポンプ式か、片手で使いやすいかを見る",
           "伸びやすさ、ベタつきにくさのレビューを優先して読む",
@@ -144,8 +144,8 @@ window.DIAGNOSES = {
       compare: {
         title: "比較メモを作ってから進めるタイプ",
         summary: "今はすぐ買うより、候補の条件を並べて不安を減らす段階です。商品ページを見る時の順番を決めると迷いが減ります。",
-        offerIntro: "価格、容量、レビュー、買い足しやすさを同じ目線で比べるための並びです。",
-        offerOrder: ["mama-kids-milky-lotion", "alobaby-milk-lotion", "pigeon-refill-set", "milufuwa-pump-set"],
+        recommendedOffer: "pigeon-refill-set",
+        offerIntro: "今回は、容量と買い足しやすさを確認しやすい候補を1つ出します。価格、容量、レビューを同じメモに並べて見る進め方です。",
         points: [
           "価格、容量、買い足しやすさを同じメモに並べる",
           "商品説明とレビューの情報を分けて見る",

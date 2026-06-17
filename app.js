@@ -106,15 +106,10 @@
     });
   }
 
-  function getOrderedOffers(resultData) {
+  function getOfferById(offerId) {
     const offersById = Object.fromEntries(diagnosis.offers.map((offer) => [offer.id, offer]));
-    const ordered = (resultData.offerOrder || [])
-      .map((offerId) => offersById[offerId])
-      .filter(Boolean);
-    const orderedIds = new Set(ordered.map((offer) => offer.id));
-    const remaining = diagnosis.offers.filter((offer) => !orderedIds.has(offer.id));
 
-    return ordered.concat(remaining);
+    return offersById[offerId] || diagnosis.offers[0];
   }
 
   function createOfferCard(offer) {
@@ -161,9 +156,7 @@
   function renderOffers(resultData) {
     offerIntro.textContent = resultData.offerIntro;
     offerList.innerHTML = "";
-    getOrderedOffers(resultData).forEach((offer) => {
-      offerList.appendChild(createOfferCard(offer));
-    });
+    offerList.appendChild(createOfferCard(getOfferById(resultData.recommendedOffer)));
   }
 
   function renderResult() {
