@@ -33,7 +33,12 @@
   const questionTitle = document.querySelector("[data-question-title]");
   const choices = document.querySelector("[data-choices]");
   const resultTitle = document.querySelector("[data-result-title]");
+  const resultTypeCode = document.querySelector("[data-result-type-code]");
+  const resultTagline = document.querySelector("[data-result-tagline]");
   const resultSummary = document.querySelector("[data-result-summary]");
+  const resultInsight = document.querySelector("[data-result-insight]");
+  const resultMatchReason = document.querySelector("[data-result-match-reason]");
+  const resultNextAction = document.querySelector("[data-result-next-action]");
   const pointsTitle = document.querySelector("[data-points-title]");
   const checklistTitle = document.querySelector("[data-checklist-title]");
   const resultPoints = document.querySelector("[data-result-points]");
@@ -245,8 +250,15 @@
     const resultData = diagnosis.results[resultKey];
     quiz.hidden = true;
     result.hidden = false;
-    resultTitle.textContent = resultData.title;
+    resultTypeCode.textContent = resultData.typeCode || "";
+    resultTitle.textContent = resultData.typeName
+      ? `あなたは「${resultData.typeName}」`
+      : resultData.title;
+    resultTagline.textContent = resultData.tagline || "";
     resultSummary.textContent = resultData.summary;
+    resultMatchReason.textContent = resultData.matchReason || "";
+    resultNextAction.textContent = resultData.nextAction || "";
+    resultInsight.hidden = !(resultData.matchReason || resultData.nextAction);
     renderList(resultPoints, resultData.points);
     renderList(resultChecklist, resultData.checklist);
     renderOffers(resultData);

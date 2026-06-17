@@ -14,7 +14,7 @@
       content="保湿ケア選びの不安を、使う場面・続けやすさ・相談ラインから整理します。"
     />
     <meta property="og:image" content="./assets/alobaby-note-thumbnail.png" />
-    <link rel="stylesheet" href="./styles.css?v=20260617-focus-image" />
+    <link rel="stylesheet" href="./styles.css?v=20260618-type-result" />
   </head>
   <body>
     <main class="app" id="app">
@@ -67,8 +67,15 @@
       <section class="result" hidden>
         <div class="result__header">
           <p class="label" data-result-label>チェック結果</p>
+          <p class="result-type-code" data-result-type-code></p>
           <h2 data-result-title></h2>
+          <p class="result-tagline" data-result-tagline></p>
           <p data-result-summary></p>
+          <div class="result-insight" data-result-insight hidden>
+            <p class="result-insight__title">このタイプに近い理由</p>
+            <p data-result-match-reason></p>
+            <p class="result-insight__next" data-result-next-action></p>
+          </div>
         </div>
         <div class="result__grid">
           <section class="result-box">
@@ -100,8 +107,8 @@
       </section>
     </main>
 
-    <script src="./data/diagnoses.js?v=20260617-focus-image"></script>
-    <script src="./data/career-change-a8-001.generated.js?v=20260617-focus-image"></script>
-    <script src="./app.js?v=20260617-focus-image"></script>
+    <script src="./data/diagnoses.js?v=20260618-type-result"></script>
+    <script src="./data/career-change-a8-001.generated.js?v=20260618-type-result"></script>
+    <script src="./app.js?v=20260618-type-result"></script>
   </body>
 </html>
