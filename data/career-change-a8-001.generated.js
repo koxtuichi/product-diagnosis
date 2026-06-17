@@ -75,27 +75,27 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "title": "独学でコードを書いてみて、今一番気になることは？",
       "choices": [
         {
-          "label": "AIに頼った部分が多く、自力でどこまで理解できているか不安",
-          "scores": {
-            "study_check": 3
-          }
-        },
-        {
           "label": "作ったアプリを面接でどう説明すればいいか分からない",
           "scores": {
             "portfolio_explain": 3
           }
         },
         {
-          "label": "今の学習レベルで、どんな求人を見ればいいのか知りたい",
-          "scores": {
-            "job_quality": 3
-          }
-        },
-        {
           "label": "そもそも学習と就活、今はどちらを優先すべきか迷っている",
           "scores": {
             "first_consult": 3
+          }
+        },
+        {
+          "label": "AIに頼った部分が多く、自力でどこまで理解できているか不安",
+          "scores": {
+            "study_check": 3
+          }
+        },
+        {
+          "label": "今の学習レベルで、どんな求人を見ればいいのか知りたい",
+          "scores": {
+            "job_quality": 3
           }
         }
       ]
@@ -106,27 +106,27 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "title": "AIに手伝ってもらったアプリについて、今どう感じている？",
       "choices": [
         {
-          "label": "基礎から学び直して、自分で書ける部分をもっと増やしたい",
-          "scores": {
-            "study_check": 3
-          }
-        },
-        {
-          "label": "「なぜこのコードにしたの？」と突っ込まれたら答えに詰まりそう",
-          "scores": {
-            "portfolio_explain": 3
-          }
-        },
-        {
           "label": "企業側が未経験のポートフォリオに何を求めているのか知りたい",
           "scores": {
             "job_quality": 3
           }
         },
         {
+          "label": "基礎から学び直して、自分で書ける部分をもっと増やしたい",
+          "scores": {
+            "study_check": 3
+          }
+        },
+        {
           "label": "アプリの話以前に、面接で何をどう話せばいいか分からない",
           "scores": {
             "first_consult": 3
+          }
+        },
+        {
+          "label": "「なぜこのコードにしたの？」と突っ込まれたら答えに詰まりそう",
+          "scores": {
+            "portfolio_explain": 3
           }
         }
       ]
@@ -137,9 +137,9 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "title": "「未経験OK」の求人を見ると、どう感じる？",
       "choices": [
         {
-          "label": "学習しながら就活できる、無料研修付きのほうが安心かも",
+          "label": "求人の見極め方が分からないので、誰かに条件を整理してほしい",
           "scores": {
-            "study_check": 3
+            "first_consult": 3
           }
         },
         {
@@ -155,9 +155,9 @@ window.DIAGNOSES["career-change-a8-001"] = {
           }
         },
         {
-          "label": "求人の見極め方が分からないので、誰かに条件を整理してほしい",
+          "label": "学習しながら就活できる、無料研修付きのほうが安心かも",
           "scores": {
-            "first_consult": 3
+            "study_check": 3
           }
         }
       ]
@@ -174,15 +174,15 @@ window.DIAGNOSES["career-change-a8-001"] = {
           }
         },
         {
-          "label": "作ったアプリの客観的な評価と、面接での伝え方",
-          "scores": {
-            "portfolio_explain": 3
-          }
-        },
-        {
           "label": "未経験で応募できる求人の特徴と、企業選びの見方",
           "scores": {
             "job_quality": 3
+          }
+        },
+        {
+          "label": "作ったアプリの客観的な評価と、面接での伝え方",
+          "scores": {
+            "portfolio_explain": 3
           }
         },
         {
