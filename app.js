@@ -223,7 +223,13 @@
     body.append(note);
     if (offer.url) body.appendChild(link);
 
-    if (offer.image) {
+    if (offer.a8BannerHtml) {
+      const banner = document.createElement("div");
+      banner.className = "offer-card__banner";
+      banner.innerHTML = offer.a8BannerHtml;
+      card.classList.add("offer-card--banner");
+      card.append(banner, body);
+    } else if (offer.image) {
       const image = document.createElement("img");
       image.className = "offer-card__image";
       image.src = offer.image;
