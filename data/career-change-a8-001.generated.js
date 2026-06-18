@@ -1,14 +1,15 @@
 window.DIAGNOSES = window.DIAGNOSES || {};
 window.DIAGNOSES["career-change-a8-001"] = {
   "theme": "career",
-  "appTitle": "未経験エンジニア転職・現在地診断",
-  "metaTitle": "未経験エンジニア転職・現在地診断",
-  "metaDescription": "AIで作った小さいアプリを未経験エンジニア転職へどうつなげるか、学習・説明・求人確認・相談先を整理する診断です。",
-  "ogTitle": "未経験エンジニア転職・現在地診断",
-  "ogDescription": "AIで作った小さいアプリを未経験エンジニア転職へどうつなげるか、学習・説明・求人確認・相談先を整理する診断です。",
+  "appTitle": "未経験エンジニア転職 現在地診断",
+  "metaTitle": "未経験エンジニア転職 現在地診断",
+  "metaDescription": "HTML/CSSとJavaScriptを独学中で、AIで作った小さいアプリをどう転職準備につなげるか迷っている人向けの診断です。",
+  "ogTitle": "未経験エンジニア転職 現在地診断",
+  "ogDescription": "HTML/CSSとJavaScriptを独学中で、AIで作った小さいアプリをどう転職準備につなげるか迷っている人向けの診断です。",
+  "ogImage": "https://koxtuichi.github.io/product-diagnosis/assets/career-change-diagnosis-app-thumbnail-v2.png",
   "disclosureLabel": "広告・PRを含みます",
-  "introCopy": "AIの力も借りてアプリを作ってみたけれど、「これって転職でどう評価されるの？」「面接でうまく説明できる？」とモヤモヤしていませんか。今のあなたの状況を整理し、次に確認すべき候補や相談先をまとめます。",
-  "notice": "※この診断は転職の成功や内定を保証するものではありません。紹介する各候補には対象年齢や地域などの条件があります。公式ページでご自身の状況に合うか確認するための、事前メモとしてお使いください。",
+  "introCopy": "4つの質問に答えると、学習の棚卸し、ポートフォリオ説明、求人見極め、まず相談のどこを優先するかを整理できます。",
+  "notice": "この診断は転職成功や内定獲得を保証するものではありません。広告・PRを含みます。各サービスの対象条件は公式ページで確認してください。",
   "articleUrl": "",
   "articleLinkLabel": "関連記事を読む",
   "resultArticleLinkLabel": "関連記事を読む",
@@ -17,7 +18,7 @@ window.DIAGNOSES["career-change-a8-001"] = {
   "checklistTitle": "相談前に確認しておきたいこと",
   "offersLabel": "あなたに近い確認先",
   "offersTitle": "今の状態に合わせて公式ページをチェック",
-  "offerNote": "各サービスの対象年齢、地域、面談条件などは変わる場合があります。申し込み前に公式ページで確認してください。広告・PRを含みます。",
+  "offerNote": "各サービスの対象年齢、地域、面談条件などは変わる場合があります。申し込み前に公式ページで必ず確認してください。広告・PRを含みます。",
   "ctaLabel": "無料相談・詳細を見る",
   "sourceWorkbook": "pipeline/affiliate-diagnosis-pipeline-template.xlsx",
   "generatedFromSheet": "confirmed_direction_2026-06-17",
@@ -28,7 +29,7 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "badge": "確認候補",
       "name": "キャリアカンパニー",
       "condition": "対象条件:20-29歳、首都圏・大阪、高卒以上など",
-      "note": "20代で、未経験ITエンジニア転職の不安をまず相談したい人向けの確認先です。年齢・地域・学歴などの条件は公式ページで確認してください。",
+      "note": "20代で、未経験ITエンジニア転職の不安をまず相談したい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
       "image": "./assets/career-first-consult.svg",
       "imageAlt": "相談前に現在地を整理するイラスト",
       "url": "https://career-accompany.com/lp/inexperience-itjobchange/",
@@ -39,7 +40,7 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "badge": "確認候補",
       "name": "IT専門転職エージェント＠PRO人（未経験向け）",
       "condition": "対象条件:20-32歳、一都三県居住、高卒以上、転職回数3回以内など",
-      "note": "IT/Webエンジニアを目指し、独学経験や制作物の伝え方を面談で整理したい人向けの確認先です。対象条件は公式ページで確認してください。",
+      "note": "IT/Webエンジニアを目指し、面談でキャリアやアピール材料を整理したい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
       "image": "./assets/career-portfolio-explain.svg",
       "imageAlt": "ポートフォリオを説明する準備のイラスト",
       "url": "https://www.jobcareer.jp/lp/agent-projin/beginner/",
@@ -50,7 +51,7 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "badge": "確認候補",
       "name": "ウズウズIT",
       "condition": "対象条件:18-29歳、高卒以上、対象エリア勤務希望など",
-      "note": "第二新卒・既卒・フリーターなど、未経験からIT就職サポートを受けたい人向けの確認先です。対象エリアなどは公式ページで確認してください。",
+      "note": "第二新卒・既卒・フリーターなど、未経験からIT就職サポートを受けたい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
       "image": "./assets/career-job-quality.svg",
       "imageAlt": "求人条件を確認するイラスト",
       "url": "https://daini2.co.jp/it-service-introduction/",
@@ -61,7 +62,7 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "badge": "確認候補",
       "name": "ProgrammerCollege",
       "condition": "対象条件は公式ページで確認してください",
-      "note": "学習不足が不安で、無料研修と就活サポートの流れを見たい人向けの確認先です。年齢・地域などの条件は公式ページで確認してください。",
+      "note": "学習不足が不安で、無料研修と就活サポートをセットで見たい30歳以下の人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
       "image": "./assets/career-study-check.svg",
       "imageAlt": "学習ロードマップを確認するイラスト",
       "url": "https://programmercollege.jp/lp5/?utm_source=af&utm_medium=bnr&utm_campaign=af8",
@@ -71,124 +72,153 @@ window.DIAGNOSES["career-change-a8-001"] = {
   "questions": [
     {
       "order": 1,
-      "kicker": "今の学習状況",
-      "title": "独学でコードを書いてみて、今一番気になることは？",
+      "kicker": "いまの詰まり",
+      "title": "未経験エンジニア転職で、いちばん止まっているのはどこですか？",
       "choices": [
         {
-          "label": "作ったアプリを面接でどう説明すればいいか分からない",
+          "label": "今のHTML/CSS・JavaScript学習で足りるのか分からない",
           "scores": {
-            "portfolio_explain": 3
+            "study_check": 3,
+            "portfolio_explain": 1,
+            "first_consult": 1
           }
         },
         {
-          "label": "そもそも学習と就活、今はどちらを優先すべきか迷っている",
+          "label": "AIに手伝ってもらって作ったアプリを、自分で説明できる気がしない",
           "scores": {
+            "study_check": 1,
+            "portfolio_explain": 3,
+            "first_consult": 1
+          }
+        },
+        {
+          "label": "何から相談すればいいか分からず、全部ふわっとしている",
+          "scores": {
+            "study_check": 1,
+            "portfolio_explain": 1,
             "first_consult": 3
           }
         },
         {
-          "label": "AIに頼った部分が多く、自力でどこまで理解できているか不安",
+          "label": "未経験OK求人が本当に安全なのか、ブラックではないか不安",
           "scores": {
-            "study_check": 3
-          }
-        },
-        {
-          "label": "今の学習レベルで、どんな求人を見ればいいのか知りたい",
-          "scores": {
-            "job_quality": 3
+            "job_quality": 3,
+            "first_consult": 1
           }
         }
       ]
     },
     {
       "order": 2,
-      "kicker": "ポートフォリオの不安",
-      "title": "AIに手伝ってもらったアプリについて、今どう感じている？",
+      "kicker": "AI時代の不安",
+      "title": "AIを使いながら学んでいることで、どの不安が近いですか？",
       "choices": [
         {
-          "label": "企業側が未経験のポートフォリオに何を求めているのか知りたい",
+          "label": "AIが作った部分と、自分が理解している部分を分けられていない",
           "scores": {
-            "job_quality": 3
+            "study_check": 1,
+            "portfolio_explain": 3,
+            "first_consult": 1
           }
         },
         {
-          "label": "基礎から学び直して、自分で書ける部分をもっと増やしたい",
+          "label": "次に何を作れば転職準備になるのか分からない",
           "scores": {
-            "study_check": 3
+            "study_check": 3,
+            "portfolio_explain": 1,
+            "first_consult": 1
           }
         },
         {
-          "label": "アプリの話以前に、面接で何をどう話せばいいか分からない",
+          "label": "AIがある時代でも未経験として評価されるポイントを知りたい",
           "scores": {
+            "study_check": 1,
+            "portfolio_explain": 1,
+            "job_quality": 2,
+            "first_consult": 2
+          }
+        },
+        {
+          "label": "自分の状況を聞いてもらい、何を話せばいいか整理したい",
+          "scores": {
+            "portfolio_explain": 1,
+            "job_quality": 1,
             "first_consult": 3
-          }
-        },
-        {
-          "label": "「なぜこのコードにしたの？」と突っ込まれたら答えに詰まりそう",
-          "scores": {
-            "portfolio_explain": 3
           }
         }
       ]
     },
     {
       "order": 3,
-      "kicker": "求人選びのモヤモヤ",
-      "title": "「未経験OK」の求人を見ると、どう感じる？",
+      "kicker": "欲しい支援",
+      "title": "今いちばん欲しい支援はどれですか？",
       "choices": [
         {
-          "label": "求人の見極め方が分からないので、誰かに条件を整理してほしい",
+          "label": "まず無料相談で現在地を整理すること",
           "scores": {
+            "portfolio_explain": 1,
+            "job_quality": 1,
             "first_consult": 3
           }
         },
         {
-          "label": "今の自分のスキルが、実際の現場でどこまで通用するのか知りたい",
+          "label": "未経験OK求人や紹介先の見方",
           "scores": {
-            "portfolio_explain": 3
+            "job_quality": 3,
+            "first_consult": 1
           }
         },
         {
-          "label": "研修の有無や、入社後のサポート体制がどうなっているか気になる",
+          "label": "学習ロードマップや不足点の確認",
           "scores": {
-            "job_quality": 3
+            "study_check": 3,
+            "portfolio_explain": 1,
+            "first_consult": 1
           }
         },
         {
-          "label": "学習しながら就活できる、無料研修付きのほうが安心かも",
+          "label": "ポートフォリオ、書類、面接での伝え方",
           "scores": {
-            "study_check": 3
+            "study_check": 1,
+            "portfolio_explain": 3,
+            "first_consult": 1
           }
         }
       ]
     },
     {
       "order": 4,
-      "kicker": "次の一歩",
-      "title": "今、誰かに相談できるとしたら何を一番聞きたい？",
+      "kicker": "転職への温度感",
+      "title": "転職活動への距離感はどれに近いですか？",
       "choices": [
         {
-          "label": "今後の学習の進め方と、就活に向けた準備の順番",
+          "label": "まだ学習中心。応募より先に土台を作りたい",
           "scores": {
-            "study_check": 3
+            "study_check": 3,
+            "portfolio_explain": 1
           }
         },
         {
-          "label": "未経験で応募できる求人の特徴と、企業選びの見方",
+          "label": "小さいアプリはあるので、説明できる状態にしたい",
           "scores": {
-            "job_quality": 3
+            "study_check": 1,
+            "portfolio_explain": 3,
+            "first_consult": 1
           }
         },
         {
-          "label": "作ったアプリの客観的な評価と、面接での伝え方",
+          "label": "まだ迷っているので、最初の相談先だけ知りたい",
           "scores": {
-            "portfolio_explain": 3
-          }
-        },
-        {
-          "label": "今の自分の状況から、まず何に手をつけるべきかという全体像",
-          "scores": {
+            "study_check": 1,
             "first_consult": 3
+          }
+        },
+        {
+          "label": "条件に合うなら、求人や選考の話も聞いてみたい",
+          "scores": {
+            "portfolio_explain": 1,
+            "job_quality": 3,
+            "first_consult": 1
           }
         }
       ]

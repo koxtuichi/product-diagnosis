@@ -8,6 +8,7 @@ note記事から遷移させる想定の、静的な診断アプリMVPです。
 - GitHub Pages: このディレクトリ内のファイルを公開リポジトリ直下へ配置し、Pagesの公開元を設定する
 - 診断URL: `index.html?id=baby-lotion`
 - 転職診断URL: `index.html?id=career-change-a8-001`
+- 転職診断のnoteカード用URL: `cards/career-change-a8-001/`
 
 ## 方針
 
@@ -40,3 +41,16 @@ https://example.com/affiliate-diagnosis-app/?id=baby-lotion
 ```
 
 noteではURLを独立したブロックに置き、カード表示になるか公開後に確認します。
+
+## noteカード用URL
+
+GitHub Pagesの静的HTMLでは、`?id=...` ごとにOG画像を出し分けられません。
+noteでリンクカード化する場合は、各診断専用の `cards/{diagnosis_id}/` URLを本文に置きます。
+
+転職診断では、以下のURLをnoteに埋め込むと専用サムネイルが使われます。
+
+```text
+https://koxtuichi.github.io/product-diagnosis/cards/career-change-a8-001/
+```
+
+このカードURLは、クリック時に本体の診断URLへ移動します。
