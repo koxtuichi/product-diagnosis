@@ -30,8 +30,8 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "name": "キャリアカンパニー",
       "condition": "対象条件:20-29歳、首都圏・大阪、高卒以上など",
       "note": "20代で、未経験ITエンジニア転職の不安をまず相談したい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
-      "image": "./assets/career-first-consult.svg",
-      "imageAlt": "相談前に現在地を整理するイラスト",
+      "image": "./assets/career-change-diagnosis-app-thumbnail-v2.png",
+      "imageAlt": "未経験エンジニアの転職診断サムネイル",
       "url": "https://career-accompany.com/lp/inexperience-itjobchange/",
       "ctaLabel": "無料相談・詳細を見る"
     },
@@ -41,8 +41,8 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "name": "IT専門転職エージェント＠PRO人（未経験向け）",
       "condition": "対象条件:20-32歳、一都三県居住、高卒以上、転職回数3回以内など",
       "note": "IT/Webエンジニアを目指し、面談でキャリアやアピール材料を整理したい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
-      "image": "./assets/career-portfolio-explain.svg",
-      "imageAlt": "ポートフォリオを説明する準備のイラスト",
+      "image": "./assets/career-change-diagnosis-app-thumbnail-v2.png",
+      "imageAlt": "未経験エンジニアの転職診断サムネイル",
       "url": "https://www.jobcareer.jp/lp/agent-projin/beginner/",
       "ctaLabel": "無料相談・詳細を見る"
     },
@@ -52,8 +52,8 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "name": "ウズウズIT",
       "condition": "対象条件:18-29歳、高卒以上、対象エリア勤務希望など",
       "note": "第二新卒・既卒・フリーターなど、未経験からIT就職サポートを受けたい人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
-      "image": "./assets/career-job-quality.svg",
-      "imageAlt": "求人条件を確認するイラスト",
+      "image": "./assets/career-change-diagnosis-app-thumbnail-v2.png",
+      "imageAlt": "未経験エンジニアの転職診断サムネイル",
       "url": "https://daini2.co.jp/it-service-introduction/",
       "ctaLabel": "無料相談・詳細を見る"
     },
@@ -63,8 +63,8 @@ window.DIAGNOSES["career-change-a8-001"] = {
       "name": "ProgrammerCollege",
       "condition": "対象条件は公式ページで確認してください",
       "note": "学習不足が不安で、無料研修と就活サポートをセットで見たい30歳以下の人向けの確認先です。年齢・地域・面談条件などは公式ページで確認してください。",
-      "image": "./assets/career-study-check.svg",
-      "imageAlt": "学習ロードマップを確認するイラスト",
+      "image": "./assets/career-change-diagnosis-app-thumbnail-v2.png",
+      "imageAlt": "未経験エンジニアの転職診断サムネイル",
       "url": "https://programmercollege.jp/lp5/?utm_source=af&utm_medium=bnr&utm_campaign=af8",
       "ctaLabel": "無料相談・詳細を見る"
     }

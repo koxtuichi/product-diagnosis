@@ -383,6 +383,21 @@ li + li {
   background: #fff;
 }
 
+body[data-theme="career"] .offer-card {
+  grid-template-columns: minmax(240px, 0.9fr) minmax(0, 1.1fr);
+  align-items: center;
+}
+
+body[data-theme="career"] .offer-card__image {
+  justify-self: center;
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  aspect-ratio: 1920 / 1005;
+  object-fit: cover;
+  background: #f6f8f2;
+}
+
 .offer-card__badge {
   display: inline-flex;
   width: fit-content;
@@ -434,5 +449,14 @@ li + li {
   .offer-card__image {
     width: min(180px, 100%);
     height: auto;
+  }
+
+  body[data-theme="career"] .offer-card {
+    grid-template-columns: 1fr;
+  }
+
+  body[data-theme="career"] .offer-card__image {
+    width: 100%;
+    max-width: 100%;
   }
 }
