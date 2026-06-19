@@ -10,6 +10,8 @@ note記事から遷移させる想定の、静的な診断アプリMVPです。
 - 赤ちゃん保湿診断のnoteカード用URL: `cards/baby-lotion/`
 - 転職診断URL: `index.html?id=career-change-a8-001`
 - 転職診断のnoteカード用URL: `cards/career-change-a8-001/`
+- うなぎギフト診断URL: `index.html?id=unagi-gift`
+- うなぎギフト診断のnoteカード用URL: `cards/unagi-gift/`
 
 ## 方針
 
@@ -83,6 +85,12 @@ https://koxtuichi.github.io/product-diagnosis/cards/baby-lotion/
 
 ```text
 https://koxtuichi.github.io/product-diagnosis/cards/career-change-a8-001/
+```
+
+うなぎギフト診断では、以下のURLをnoteに埋め込むと専用サムネイルが使われます。
+
+```text
+https://koxtuichi.github.io/product-diagnosis/cards/unagi-gift/
 ```
 
 このカードURLは、クリック時に本体の診断URLへ移動します。
