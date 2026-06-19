@@ -24,6 +24,18 @@ body[data-theme="career"] {
   --shadow: 0 14px 38px rgba(39, 61, 55, 0.11);
 }
 
+body[data-theme="unagi"] {
+  --bg: #fff8f4;
+  --surface-soft: #fff2e8;
+  --ink: #2b2118;
+  --muted: #6f5d50;
+  --line: #ead7c9;
+  --accent: #b76046;
+  --accent-dark: #88412d;
+  --mint: #b8895b;
+  --shadow: 0 14px 38px rgba(101, 58, 38, 0.12);
+}
+
 * {
   box-sizing: border-box;
 }
